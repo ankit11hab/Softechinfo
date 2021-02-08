@@ -1,0 +1,190 @@
+* {
+  font-family: "poppins", sans-serif;
+}
+body {
+  background: #f8f9fd; //rgb(233,233,233);
+  margin: 0px;
+  padding: 0px;
+}
+.main {
+  padding: 90px;
+}
+fieldset {
+  padding-left: 20px;
+  padding-right: 0px;
+  padding-top: 0px;
+  border: none;
+  background: white;
+  border-radius: 30px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.basic1 {
+  font-size: 24px;
+  width: 40%;
+  float: left;
+  margin: 40px;
+}
+
+.basic2 {
+  font-size: 24px;
+  width: 40%;
+  float: left;
+  margin: 40px;
+}
+
+.basic3 {
+  font-size: 24px;
+  width: 40%;
+  float: left;
+  margin: 40px;
+}
+
+.basic4 {
+  font-size: 24px;
+  width: 40%;
+  float: left;
+  margin: 40px;
+}
+.price1 {
+  border: 1px solid #a314d4;
+  border-radius: 10px;
+  padding: 5px;
+  font-size: 24px;
+  background: #a314d4;
+  color: white;
+}
+
+.price2 {
+  border-radius: 10px;
+  padding: 5px;
+  font-size: 24px;
+  background: #03e196;
+  color: white;
+}
+
+.price3 {
+  border-radius: 10px;
+  padding: 5px;
+  font-size: 24px;
+  background: #f66;
+  color: white;
+}
+
+.price4 {
+  border-radius: 10px;
+  padding: 5px;
+  font-size: 24px;
+  background: #e27e27;
+  color: white;
+}
+.purchase {
+  padding: 5px 5px;
+  background: white;
+  font-size: 18px;
+  //color: white;
+  border: none;
+  text-decoration: none;
+}
+.purchase a {
+  text-decoration: none;
+  color: #249efc;
+  font-size: 24px;
+}
+.bas:hover {
+  transition: transform 0.5s ease;
+  transform: scale(1.03);
+}
+.bas {
+  float: left;
+  transition: transform 0.5s ease;
+}
+.bas1:hover {
+  transition: transform 0.5s ease;
+  transform: scale(1.03);
+}
+.bas1 {
+  transition: transform 0.5s ease;
+}
+.bas2:hover {
+  transition: transform 0.5s ease;
+  transform: scale(1.03);
+}
+.bas2 {
+  transition: transform 0.5s ease;
+}
+.bas3:hover {
+  transition: transform 0.5s ease;
+  transform: scale(1.03);
+}
+.bas3 {
+  transition: transform 0.5s ease;
+}
+.float {
+  float: left;
+}
+img {
+  float: left;
+}
+
+.nav {
+  position: relative;
+  align-items: center;
+  height: 55px;
+  margin-left: 10px;
+  margin-top: 2px;
+  padding-left: 32px;
+}
+.nav a {
+  color: black;
+  text-decoration: none;
+}
+.fixed {
+  font-size: 18px;
+}
+.align {
+  font-size: 18px;
+}
+.align {
+  position: relative;
+}
+.but1 {
+  background-color: #ff6600;
+  border: none;
+  color: white;
+  padding: 5px;
+  font-size: 15px;
+}
+.heading {
+  background: #249efc;
+  color: white;
+  font-size: 25px;
+  width: 38%;
+  padding: 5px;
+  border-radius: 10px;
+}
+.footer {
+  float: left;
+  position: relative;
+  padding: 40px;
+  width: 93.52%;
+  background-color: #161e2c;
+  color: White;
+  font-size: 20px;
+}
+.footer a {
+  text-decoration: none;
+  color: white;
+}
+.faq {
+  float: left;
+  position: relative;
+  margin-right: 92px;
+  margin-left: 50px;
+  line-height: 1.5;
+}
+.about {
+  line-height: 1.5;
+}
+.logo {
+  float: left;
+}

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .block {
+  float: left;
+  -webkit-box-shadow: 0px 0px 20px 12px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 3px 1.5px rgba(0, 0, 0, 0.4);
+
+  background: #fff;
+  padding: 0px;
+  margin: 10px;
+  transition: transform 0.5s;
+  border-radius: 0px;
+  overflow: hidden;
+  width: 31%;
+}
+.portfolios {
+  padding: 20px;
+  padding-left: 50px;
+  margin: 10px;
+}
+
+.portfolios img {
+  transition: transform 0.3s ease;
+  padding: 0px;
+  margin: 0px;
+}
+.portfolios img:hover {
+  transform: scale(1.2);
+}
+
+.image {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+.image1 {
+  opacity: 1;
+  display: block;
+  height: auto;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+.middle {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.image:hover .image1 {
+  opacity: 0.5;
+}
+.image:hover .middle {
+  opacity: 1;
+}
+.text8 {
+  background-color: transparent;
+  border: 3px solid black;
+  color: black;
+  font-size: 18px;
+  padding: 5px 5px;
+}
+.seemore {
+  background-color: white;
+  padding: 8px 10px;
+  border: 1px solid black;
+  font-size: 21px;
+  color: #707070;
+}
+.clear {
+  clear: both;
+}
+    </style>
+</head>
+<body>
+    <p><center><b style = "font-size: 35px; color: #1d4354">Our Portfolios</b></center><hr width = "50%"><br><br><br></p>
+<div class = "portfolios">	
+	<div class = "block"><div class = "image"><img src = "Book(4).jpg" width= 100% class = "image1"> <div class = "middle"><div class = "text8"><b>Post a project like this</b></div></div></div><br><b style = "font-size: 20px">&nbsp&nbsp&nbsp&nbsp&nbspNature Desire</b><br><span style = "font-size: 19px">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspPhotography Website<br><br></span></div>
+	<div class = "block"><div class = "image"><img src = "pens4.jpg" width= 100% class = "image1"><div class = "middle"><div class = "text8"><b>Post a project like this</b></div></div> </div><br><b style = "font-size: 20px">&nbsp&nbsp&nbsp&nbsp&nbspValeria Group</b><br><span style = "font-size: 19px">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspBrand logo and Design<br><br></span></div>
+	
+	<div class = "block"><div class = "image"><img src = "web4.jpg" width= 100% class = "image1"><div class = "middle"><div class = "text8"><b>Post a project like this</b></div></div> </div><br><b style = "font-size: 20px">&nbsp&nbsp&nbsp&nbsp&nbspFood Shop App</b><br><span style = "font-size: 19px">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspMobile app for Android/iOS<br><br></span></div>
+	<div class = "block"><div class = "image"><img src = "phone4.jpg" width= 100% class = "image1"> <div class = "middle"><div class = "text8"><b>Post a project like this</b></div></div></div><br><b style = "font-size: 20px">&nbsp&nbsp&nbsp&nbsp&nbspPrototype App</b><br><span style = "font-size: 19px">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspMobile app for Android/iOS<br><br></span></div>
+	<div class = "block"><div class = "image"><img src = "loggo5.jpg" width= 100% class = "image1"><div class = "middle"><div class = "text8"><b>Post a project like this</b></div></div> </div><br><b style = "font-size: 20px">&nbsp&nbsp&nbsp&nbsp&nbspMentari Pvt.</b><br><span style = "font-size: 19px">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspBrand logo and Design<br><br></span></div>
+	
+	<div class = "block"><div class = "image"><img src = "mob2.jpeg" width= 100% class = "image1"><div class = "middle"><div class = "text8"><b>Post a project like this</b></div></div> </div><br><b style = "font-size: 20px">&nbsp&nbsp&nbsp&nbsp&nbspDaily Stock</b><br><span style = "font-size: 19px">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspMobile app for Android/iOS<br><br></span></div>
+</div><br><br><div class="clear"></div>
+<p><br></p>
+<div><center><button class = "seemore"><b>See more</b></button></center></div><br><br>
+</body>
+</html>
